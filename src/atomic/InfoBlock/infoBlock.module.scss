@@ -1,0 +1,57 @@
+.infoBlockContainer {
+  width: 60vw;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  color: white;
+
+  h1 {
+    font-family: "Alice";
+    font-size: clamp(2rem, 5vw, 7rem);
+  }
+
+  p {
+    font-family: "Source Serif ExtraLight";
+    text-align: left;
+
+    font-size: clamp(1rem, 4vw, 1.5rem);
+  }
+
+  em {
+    display: block;
+    font-style: normal;
+    font-family: "Courier New", Courier, monospace;
+
+    font-size: clamp(0.6rem, 3vw, 1.2rem);
+  }
+  i {
+    font-style: normal;
+    font-family: "Source Serif SemiBold";
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    display: inline-block;
+  }
+
+  a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}

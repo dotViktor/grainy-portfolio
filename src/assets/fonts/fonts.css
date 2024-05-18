@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Alice";
+  src: url("./Alice/Alice-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Source Serif Light";
+  src: url("./SourceSerifPro/SourceSerifPro-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Source Serif ExtraLight";
+  src: url("./SourceSerifPro/SourceSerifPro-ExtraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif SemiBold";
+  src: url("./SourceSerifPro/SourceSerifPro-Semibold.otf") format("opentype");
+}

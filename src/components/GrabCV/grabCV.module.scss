@@ -1,0 +1,25 @@
+.cvContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+
+  .openButton {
+    padding: 0 3rem;
+    font-family: "Alice";
+    font-size: clamp(2rem, 6vw, 6rem);
+
+    border-radius: clamp(1rem, 3vw, 3em);
+
+    background: url("../../assets/images/Static.png"),
+      linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0) 180%);
+    background-blend-mode: darken;
+    cursor: pointer;
+
+    transition: box-shadow 0.1s ease-out;
+
+    &:hover {
+      box-shadow: 0px 0px 10px #ffffff;
+    }
+  }
+}

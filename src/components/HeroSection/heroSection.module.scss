@@ -1,0 +1,11 @@
+.spline {
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .spline {
+    left: -10vw;
+    width: calc(100% + 100px) !important;
+    height: calc(100% + 100px) !important;
+  }
+}
