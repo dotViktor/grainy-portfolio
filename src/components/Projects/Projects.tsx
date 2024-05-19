@@ -20,7 +20,9 @@ const Projects: FC = () => {
           <i>easy-to-use excel sheet</i>.
         </p>
         <em>
-          <a href="#">wedding.viktorworks.com</a>
+          <a target="_blank" href="https://wedding.viktorworks.com">
+            wedding.viktorworks.com
+          </a>
         </em>
       </InfoBlock>
     </div>
