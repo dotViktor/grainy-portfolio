@@ -1,6 +1,6 @@
 import Title from "../../atomic/Title/Title";
 import styles from "./about.module.scss";
-import StarImg from "../../assets/images/star.png";
+import StarImg from "../../assets/images/star.webp";
 
 const About = () => {
   return (

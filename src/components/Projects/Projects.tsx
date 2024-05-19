@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styles from "./projects.module.scss";
 import Title from "../../atomic/Title/Title";
-import StarImg from "../../assets/images/star.png";
+import StarImg from "../../assets/images/star.webp";
 import InfoBlock from "../../atomic/InfoBlock/InfoBlock";
 
 const Projects: FC = () => {

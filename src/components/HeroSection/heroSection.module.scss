@@ -1,11 +1,19 @@
-.spline {
+.heroContainer {
   position: relative;
   overflow: hidden;
+
+ height: 80vh;
+
+  h1 {
+    font-size: clamp(2rem, 10vw, 11rem);
+  }
 }
+
 @media screen and (max-width: 768px) {
-  .spline {
+  .heroContainer {
     left: -10vw;
-    width: calc(100% + 100px) !important;
-    height: calc(100% + 100px) !important;
+    min-height: clamp(100px, 35vh, 300px);
+    width: calc(100% + 100px);
+    height: calc(100% + 100px);
   }
 }

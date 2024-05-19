@@ -1,6 +1,6 @@
 import { FC } from "react";
 import styles from "./Experience.module.scss";
-import StarImg from "../../assets/images/star.png";
+import StarImg from "../../assets/images/star.webp";
 import Title from "../../atomic/Title/Title";
 import InfoBlock from "../../atomic/InfoBlock/InfoBlock";
 
@@ -18,9 +18,9 @@ const Experience: FC = () => {
       <InfoBlock>
         <h1>Endava</h1>
         <p>
-          In their <i>intensive internship</i> I was responsible for
-          <i>designing</i>
-          and <i>developing</i> the <i>front-end</i> of a complex
+          In their <i>intensive internship</i> I was responsible for{" "}
+          <i>designing</i> and <i>developing</i> the <i>front-end</i> of a
+          complex
           <i> single page web application</i>
           in a <i>team</i> with other interns using <i>React</i>.
         </p>

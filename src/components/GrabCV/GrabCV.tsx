@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Title from "../../atomic/Title/Title";
 import styles from "./grabCV.module.scss";
-import StarImg from "../../assets/images/star.png";
+import StarImg from "../../assets/images/star.webp";
 
 const GrabCV: FC = () => {
   return (

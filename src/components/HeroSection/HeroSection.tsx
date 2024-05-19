@@ -4,7 +4,12 @@ import Spline from "@splinetool/react-spline";
 
 const HeroSection: FC = () => {
   return (
-    <Spline className={styles.spline} scene="https://prod.spline.design/FrH3FFjOzauRruXy/scene.splinecode" />
+    <div className={styles.heroContainer}>
+      <Spline
+        className={styles.spline}
+        scene="https://prod.spline.design/FrH3FFjOzauRruXy/scene.splinecode"
+      />
+    </div>
   );
 };
 
