@@ -1,4 +1,5 @@
 import ColumnContainer from "./atomic/ColumnContainer/ColumnContainer";
+import FadeIn from "./atomic/FadeIn/FadeIn";
 import About from "./components/About/About";
 import BlurryBackground from "./components/BlurryBackground/BlurryBackground";
 import Experience from "./components/Experience/Experience";
@@ -11,7 +12,10 @@ function App() {
   return (
     <>
       <BlurryBackground>
-        <HeroSection />
+        <FadeIn>
+          <HeroSection />
+        </FadeIn>
+
         <ColumnContainer>
           <About />
           <Experience />

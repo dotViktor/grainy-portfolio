@@ -14,7 +14,6 @@ const Experience: FC = () => {
         <br />
         Experience
       </Title>
-
       <InfoBlock>
         <h1>Endava</h1>
         <p>
