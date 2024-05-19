@@ -1,17 +1,12 @@
 import { FC } from "react";
 import styles from "./projects.module.scss";
 import Title from "../../atomic/Title/Title";
-import StarImg from "../../assets/images/star.webp";
 import InfoBlock from "../../atomic/InfoBlock/InfoBlock";
 
 const Projects: FC = () => {
   return (
     <div className={styles.projectsContainer}>
-      <Title>
-        <img src={StarImg} alt="star" />
-        Projects
-        <img src={StarImg} alt="star" />
-      </Title>
+      <Title>Projects</Title>
       <InfoBlock>
         <h1>Wedding Site</h1>
         <p>

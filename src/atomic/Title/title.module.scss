@@ -1,16 +1,8 @@
 .titleContainer {
   h1 {
     font-family: "Alice";
-    font-size: clamp(2rem, 8vw, 8rem);
+    font-size: clamp(3rem, 10vw, 9rem);
     text-align: center;
-  }
-  img {
-    display: inline;
-    vertical-align: middle;
-
-    margin: 0 5vw;
-
-    width: clamp(1.5rem, 7vw, 4.5rem);
-    height: clamp(1.5rem, 7vw, 4.5rem);
+    line-height: clamp(3rem, 10vw, 9rem);
   }
 }

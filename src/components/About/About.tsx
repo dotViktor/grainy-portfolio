@@ -1,20 +1,16 @@
 import Title from "../../atomic/Title/Title";
 import styles from "./about.module.scss";
-import StarImg from "../../assets/images/star.webp";
 
 const About = () => {
   return (
     <div className={styles.aboutContainer}>
-      <Title>
-        <img src={StarImg} alt="star" />
-        About Me
-        <img src={StarImg} alt="star" />
-      </Title>
+      <Title>About Me</Title>
 
       <p>
-        I'm a passionate developer with a thirst for knowledge who specializes
-        in building websites and back-end systems who has never turned down an
-        opportunity to learn something new!
+        Hello! I’m Viktor Stoimenov, a versatile web developer with a strong
+        background in front-end development and a growing interest in back-end
+        systems. I thrive in team settings and am always eager to learn new
+        skills and technologies to keep improving myself!
       </p>
     </div>
   );

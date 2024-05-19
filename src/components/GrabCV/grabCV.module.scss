@@ -7,9 +7,9 @@
   .openButton {
     padding: 0 3rem;
     font-family: "Alice";
-    font-size: clamp(2rem, 6vw, 6rem);
+    font-size: clamp(1rem, 6vw, 4rem);
 
-    border-radius: clamp(1rem, 3vw, 3em);
+    border-radius: 10rem;
 
     background: url("../../assets/images/Static.webp"),
       linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0) 180%);

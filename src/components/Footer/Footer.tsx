@@ -3,7 +3,9 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
       <p>Send me a mail at:</p>
-      <a href="#">viktorstoimenov@vivaldi.net</a>
+      <a href="mailto:viktorstoimenov@vivaldi.net">
+        viktorstoimenov@vivaldi.net
+      </a>
     </div>
   );
 };

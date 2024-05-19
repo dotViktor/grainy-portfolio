@@ -1,6 +1,5 @@
 import { FC } from "react";
 import styles from "./Experience.module.scss";
-import StarImg from "../../assets/images/star.webp";
 import Title from "../../atomic/Title/Title";
 import InfoBlock from "../../atomic/InfoBlock/InfoBlock";
 
@@ -8,9 +7,7 @@ const Experience: FC = () => {
   return (
     <div className={styles.expContainer}>
       <Title>
-        <img src={StarImg} alt="star" />
         Work
-        <img src={StarImg} alt="star" />
         <br />
         Experience
       </Title>

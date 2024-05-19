@@ -3,10 +3,12 @@
   flex-direction: column;
   align-items: center;
 
+  gap: 3rem;
+
   p {
     font-family: "Source Serif ExtraLight";
     text-align: center;
-    width: 60vw;
+    width: 55vw;
 
     font-size: clamp(1rem, 4vw, 1.5rem);
   }

@@ -21,11 +21,6 @@ p {
   }
 }
 
-img {
-  opacity: 0;
-  animation: fadeIn 1.5s ease-out forwards;
-}
-
 /*
 
   1. Use a more-intuitive box-sizing model.
