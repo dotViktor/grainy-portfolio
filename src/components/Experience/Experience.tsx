@@ -17,8 +17,8 @@ const Experience: FC = () => {
           In their <i>intensive internship</i> I was responsible for{" "}
           <i>designing</i> and <i>developing</i> the <i>front-end</i> of a
           complex
-          <i> single page web application</i>
-          in a <i>team</i> with other interns using <i>React</i>.
+          <i> single page web application</i> in a <i>team</i> with other
+          interns using <i>React</i>.
         </p>
         <p>
           I also implemented <i>authentication</i>, <i>authorization</i>,{" "}
