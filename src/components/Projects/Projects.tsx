@@ -6,7 +6,9 @@ import InfoBlock from "../../atomic/InfoBlock/InfoBlock";
 const Projects: FC = () => {
   return (
     <div className={styles.projectsContainer}>
-      <Title>Projects</Title>
+      <Title>
+        Public <br /> Projects
+      </Title>
       <InfoBlock>
         <h1>Wedding Site</h1>
         <p>
@@ -17,6 +19,24 @@ const Projects: FC = () => {
         <em>
           <a target="_blank" href="https://wedding.viktorworks.com">
             wedding.viktorworks.com
+          </a>
+        </em>
+      </InfoBlock>
+
+      <InfoBlock>
+        <h1>News Homepage</h1>
+        <p>
+          Another basic page, a challenge from frontendmentor.io where using
+          some basic information along with a design image I made a responsive
+          news homepage using <i>React</i> and <i>Scss</i>.
+        </p>
+        <em>
+          <a target="_blank" href="https://project-news.viktorworks.com">
+            project-news.viktorworks.com
+          </a>
+          <br />
+          <a target="_blank" href="https://github.com/dotViktor/news-homepage">
+            Github Repository
           </a>
         </em>
       </InfoBlock>

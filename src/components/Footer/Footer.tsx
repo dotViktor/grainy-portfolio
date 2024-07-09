@@ -6,6 +6,14 @@ const Footer = () => {
       <a href="mailto:viktorstoimenov@vivaldi.net">
         viktorstoimenov@vivaldi.net
       </a>
+      <p>And check out my GitHub!</p>
+      <a
+        href="https://github.com/dotViktor"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        github.com/dotViktor
+      </a>
     </div>
   );
 };
