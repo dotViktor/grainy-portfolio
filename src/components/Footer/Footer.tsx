@@ -3,9 +3,7 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
       <p>Send me a mail at:</p>
-      <a href="mailto:viktorstoimenov@vivaldi.net">
-        viktorstoimenov@vivaldi.net
-      </a>
+      <a href="mailto:viktor.stoimenov@proton.me">viktor.stoimenov@proton.me</a>
       <p>And check out my GitHub!</p>
       <a
         href="https://github.com/dotViktor"
